@@ -7,5 +7,6 @@ public class Bai12 {
         int a = sc.nextInt();
         String traloi = (a % 2 ==0) ? "chan" : "le";
         System.out.println("so cua ban la so " + traloi);
+
     }
 }
