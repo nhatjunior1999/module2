@@ -3,12 +3,16 @@ import java.util.Scanner;
 public class bai11_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         System.out.println("nhap vao chieu cao");
         double chieuCao = sc.nextDouble();
+
         System.out.println("nhap vao can nang");
         double canNang = sc.nextDouble();
+
         double bmi = canNang / (chieuCao * chieuCao);
         System.out.println("BMI cua ban la " + bmi);
+
         if (bmi < 15) {
             System.out.println("than hinh qua gay");
         } else if (bmi >= 15 && bmi < 16) {
@@ -21,7 +25,7 @@ public class bai11_2 {
             System.out.println("than hinh hoi beo");
         } else if (bmi >= 30 && bmi < 35) {
             System.out.println("than hinh beo");
-        } else{
+        } else {
             System.out.println("than hinh qua beo");
         }
 
